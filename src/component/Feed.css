@@ -1,0 +1,15 @@
+.feed {
+    /* flex: 1; */
+    padding: 90px 120px;
+    /* width: 100vw; */
+    width: 100%;
+}
+
+@media (max-width:968px) {
+    .feed {
+        padding: 10px 40px;
+        margin-top: 90px;
+        /* width: 100%; */
+        width: 100vw;
+    }
+}

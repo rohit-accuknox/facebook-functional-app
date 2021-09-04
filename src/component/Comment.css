@@ -1,0 +1,17 @@
+.comment{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* margin: 20px; */
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.comment-text{
+  margin-left: 20px;
+  background-color: #F0F2F5;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+

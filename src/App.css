@@ -1,0 +1,14 @@
+.app{
+    background-color: #f1f2f5;
+    height: 100%;
+    width: 100vw;
+}
+.app-body{
+    display: flex;
+}
+
+@media (max-width:1068px){
+    .app-body{
+        width: 80vw;
+    }
+}

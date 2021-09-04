@@ -1,0 +1,39 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 10px;
+    cursor: pointer;
+    width: 30%;
+}
+
+.sidebar>h4:hover {
+    background-color: #E4E6E9;
+}
+
+.sidebar>h4 {
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 9px;
+}
+
+@media (max-width:961px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.sidebar-options {
+    display: flex;
+    padding: 10px;
+}
+
+.sidebar-options:hover {
+    background-color: #E4E6E9;
+
+}
+
+@media (max-width:1168px) {
+    .sidebar {
+        display: none;
+    }
+}

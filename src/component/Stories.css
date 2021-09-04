@@ -1,0 +1,10 @@
+.stories{
+    display: flex;
+    /* padding-top: 30px; */
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
